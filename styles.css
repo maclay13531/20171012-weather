@@ -1,4 +1,65 @@
-.header{
+.header, .footer{
+	width:100%;
+	height: 300px;
 	background-image: url('image1.jpg');
 	background-size: 100% 100%;
+	border: 5px solid teal;
+}
+
+.zip-text, .city-text{
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+input{
+	margin-top: 30px;
+	border: 5px solid teal;
+}
+
+.main{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 2em;
+	font-size: 20px;
+	background-size: 100% 100%;
+	border: 5px solid teal;
+	font-weight: bold;
+}
+
+.image-changer{
+	background-image: url('image2.jpg');
+}
+
+.city-name, .city-name-r{
+	color: green;
+}
+
+.coor-lon, .coor-lat, .coor-lon-r, .coor-lat-r{
+	color: blue;
+}
+
+.temp-curr, .temp-curr-r{
+	color: black;
+}
+
+.temp-max, .temp-max-r{
+	color: red;
+}
+
+.temp-min, .temp-min-r{
+	color: blue;
+}
+
+.wind-speed, .wind-direction, .wind-speed-r, .wind-direction-r{
+	color: orange;
+}
+
+.icon, .icon-r{
+	color: pink;
+}
+
+.footer{
+	background-image: url('image1.jpg');
+	margin-bottom: 30px;
 }
